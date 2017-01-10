@@ -1,0 +1,96 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="admin.master.vb" Inherits="mine.admin" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+<asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>AMMU MOBILES</title>
+    
+<link href="templatemo_style.css" rel="stylesheet" type="text/css" />
+
+</head>
+<body>
+<form id="Form1" runat="server">
+<div id="templatemo_top_panel">
+	<div id="templatemo_header_section">
+    </div> <!-- end of header -->
+</div>    
+    
+<div id="templatemo_menu_panel">
+    <div id="templatemo_menu_section">
+        <ul>
+            <li><a href="adminuser.aspx" >Users</a></li>
+            <li><a href="adminpage.aspx" target="_parent">Page</a></li>
+            <li><a href="adminemployee.aspx">Employee</a></li>  
+            <asp:Menu ID="Menu1" runat="server" OnMenuItemClick="MenuEventHandler">
+                <Items>
+                    <asp:MenuItem Text="account" Value="account">
+                        <asp:MenuItem Text="logout" Value="logout">
+                        </asp:MenuItem>
+                    </asp:MenuItem>
+                </Items>
+            </asp:Menu>                   
+        </ul> 
+    </div>
+</div> <!-- end of menu -->
+
+<div class="main">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server"/>
+               
+        </div>
+        <div class="clear">
+        </div>
+    
+    <div class="footer">
+        
+    </div>
+    </form> 
+
+
+<div id="templatemo_bottom_panel">
+    <div id="templatemo_bottom_section">
+    
+    	<div id="templatemo_bottom_section_left">
+        	<div class="bottom_section_title">About Us</div>
+        	<ul class="popular_post">	
+                <li><a href="#">Since our inception in 1985, we’ve pursued two ambitious goals: working for social change and running a successful business</a><br /></li>
+                <li><a href="#">We fight hard to enact progressive change and defeat regressive policies.</a><br /></li>
+                <li><a href="#">From the outset, we’ve made generosity central to our business</a><br /></li>
+                <li><a href="#">This Website belongs to POLYCOM MOBILES Team</a><br /></li>
+            </ul>
+        </div>
+        
+        <div id="templatemo_bottom_section_right">
+        	<div class="bottom_section_title">Contact Us</div>
+            <ul class="list_section">
+                <li><a href="#">#128/14,CargoComplex,</a></li>
+                <li><a href="#">opp purplevally resort,</a></li>
+                <li><a href="#">Doremon Road,</a></li>
+                <li><a href="#">NewDelhi-6</a></li>
+                
+            </ul>
+            <p>Email- polycommobilessupport@polycom.com.<br />Phone- +918139900999 </p>
+                <a href="http://validator.w3.org/check?uri=referer">
+            <img style="border:0;width:88px;height:31px" src="images/facebook.ico" 
+                alt="Valid XHTML 1.0 Transitional" width="88" height="31" vspace="8" 
+                border="0" /></a>
+<a href="http://jigsaw.w3.org/css-validator/check/referer">
+            <img style="border:0;width:88px;height:31px"  src="images/twitter.ico" 
+                alt="Valid CSS!" vspace="8" border="0" /></a> 
+        </div>    
+    </div>
+</div> <!-- end of bottom panel -->
+
+<div id="templatemo_footer_panel">
+    <div id="templatemo_footer_section">
+        Copyright © 2048 <a href="#">
+        Polycom Mobiles | 
+        <a href="" target="_parent">Better Service</a> by 
+        <a href="" target="_parent">Polycom</a>
+    </div>
+</div>
+<div align=center>Polycom Mobiles Private Limited </div></body>
+</html>
