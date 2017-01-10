@@ -1,0 +1,20 @@
+D:\Users\gai-3\documents\visual studio 2010\Projects\mine\mine\bin\mine.dll
+D:\Users\gai-3\documents\visual studio 2010\Projects\mine\mine\bin\mine.pdb
+D:\Users\gai-3\documents\visual studio 2010\Projects\mine\mine\bin\mine.xml
+D:\Users\gai-3\documents\visual studio 2010\Projects\mine\mine\obj\Debug\ResolveAssemblyReference.cache
+D:\Users\gai-3\documents\visual studio 2010\Projects\mine\mine\obj\Debug\mine.Resources.resources
+D:\Users\gai-3\documents\visual studio 2010\Projects\mine\mine\obj\Debug\GenerateResource.read.1.tlog
+D:\Users\gai-3\documents\visual studio 2010\Projects\mine\mine\obj\Debug\GenerateResource.write.1.tlog
+D:\Users\gai-3\documents\visual studio 2010\Projects\mine\mine\obj\Debug\mine.dll
+D:\Users\gai-3\documents\visual studio 2010\Projects\mine\mine\obj\Debug\mine.xml
+D:\Users\gai-3\documents\visual studio 2010\Projects\mine\mine\obj\Debug\mine.pdb
+D:\Users\gai-3\Desktop\mine\mine\bin\mine.dll
+D:\Users\gai-3\Desktop\mine\mine\bin\mine.pdb
+D:\Users\gai-3\Desktop\mine\mine\bin\mine.xml
+D:\Users\gai-3\Desktop\mine\mine\obj\Debug\ResolveAssemblyReference.cache
+D:\Users\gai-3\Desktop\mine\mine\obj\Debug\mine.Resources.resources
+D:\Users\gai-3\Desktop\mine\mine\obj\Debug\GenerateResource.read.1.tlog
+D:\Users\gai-3\Desktop\mine\mine\obj\Debug\GenerateResource.write.1.tlog
+D:\Users\gai-3\Desktop\mine\mine\obj\Debug\mine.dll
+D:\Users\gai-3\Desktop\mine\mine\obj\Debug\mine.xml
+D:\Users\gai-3\Desktop\mine\mine\obj\Debug\mine.pdb

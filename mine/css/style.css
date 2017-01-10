@@ -1,0 +1,13 @@
+
+@charset "utf-8";
+
+.header_resize {
+	margin:0 auto;
+	padding:0;
+	width:960px;
+}
+
+.slider {
+	padding:0 0 39px;
+	background:url(../images/slider_bg.png) no-repeat center bottom;
+}
